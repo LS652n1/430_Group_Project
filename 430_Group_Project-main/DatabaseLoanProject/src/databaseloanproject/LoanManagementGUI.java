@@ -18,7 +18,7 @@ public class LoanManagementGUI extends JFrame {
         Connection conn = DBConnection.connect();
         DBInitializer.initializeDatabase(conn);
         JTabbedPane tabs = new JTabbedPane();
-        tabs.addTab("Customer Management", new CustomerPanel(conn));
+        tabs.addTab("Add Customer", new CustomerPanel(conn));
         tabs.addTab("Auto Loan", new AutoLoanPanel(conn));
         tabs.addTab("Personal Loan", new PersonalLoanPanel(conn));
         tabs.addTab("Mortgage Loan", new MortgageLoanPanel(conn));
