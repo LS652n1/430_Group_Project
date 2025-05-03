@@ -9,13 +9,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import javax.swing.JButton;
-import javax.swing.JLabel;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.JTable;
-import javax.swing.JTextField;
+import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 
 class CustomerPanel extends JPanel {
@@ -62,6 +56,49 @@ class CustomerPanel extends JPanel {
             }
 
         });
+
+        JButton editButton = new JButton("Edit Customer");
+        editButton.setBounds(300, 140, 150, 30);
+        editButton.addActionListener((e) -> {
+           try {
+               long ssn = Long.parseLong(ssnField.getText().trim());
+               String name = nameField.getText().trim();
+               double income = Double.parseDouble(incomeField.getText().trim());
+               String sql = "UPDATE Client SET Name = ?, Income = ? WHERE SSN = ?";
+               PreparedStatement stmt = conn.prepareStatement(sql);
+               stmt.setString(1, name);
+               stmt.setDouble(2, income);
+               stmt.setLong(3, ssn);
+               stmt.executeUpdate();
+               JOptionPane.showMessageDialog((Component)null, "Customer updated successfully.");
+               ssnField.setText("");
+               nameField.setText("");
+               incomeField.setText("");
+               this.loadCustomers(conn);
+           } catch (SQLException ex) {
+               JOptionPane.showMessageDialog((Component)null, "Error: " + ex.getMessage());
+           }
+        });
+
+        JButton deleteButton = new JButton("Delete Customer");
+        deleteButton.setBounds(500, 140, 150, 30);
+        deleteButton.addActionListener((e) -> {
+            try {
+                long ssn = Long.parseLong(ssnField.getText().trim());
+                String sql = "delete from Client where ssn = ?";
+                PreparedStatement stmt = conn.prepareStatement(sql);
+                stmt.setLong(1, ssn);
+                stmt.executeUpdate();
+                JOptionPane.showMessageDialog((Component)null, "Customer deleted successfully.");
+                ssnField.setText("");
+                nameField.setText("");
+                incomeField.setText("");
+                this.loadCustomers(conn);
+            } catch (SQLException ex) {
+                JOptionPane.showMessageDialog((Component)null, "Error: " + ex.getMessage());
+            }
+        });
+
         this.tableModel = new DefaultTableModel(new String[]{"SSN", "Name", "Income"}, 0);
         this.customerTable = new JTable(this.tableModel);
         JScrollPane scrollPane = new JScrollPane(this.customerTable);
@@ -74,12 +111,10 @@ class CustomerPanel extends JPanel {
         this.add(incomeLabel);
         this.add(incomeField);
         this.add(addButton);
+        this.add(editButton);
+        this.add(deleteButton);
         this.add(scrollPane);
     }
-
-
-
-
 
     private void loadCustomers(Connection conn) {
         try {
