@@ -1,0 +1,144 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0" version="26.2.12">
+  <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
+    <mxGraphModel dx="1855" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pDK1lMm8o2cIqb1LVz8z-24" value="Mortgage" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="70" width="160" height="326" as="geometry">
+            <mxRectangle x="380" y="170" width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pDK1lMm8o2cIqb1LVz8z-25" value="&lt;u&gt;House Address&lt;/u&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="pDK1lMm8o2cIqb1LVz8z-24">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pDK1lMm8o2cIqb1LVz8z-29" value="Start Date" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=4" vertex="1" parent="pDK1lMm8o2cIqb1LVz8z-24">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pDK1lMm8o2cIqb1LVz8z-32" value="&lt;u&gt;Loan Amount&lt;/u&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="pDK1lMm8o2cIqb1LVz8z-24">
+          <mxGeometry y="86" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pDK1lMm8o2cIqb1LVz8z-31" value="&lt;u&gt;Interest Rate&lt;/u&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="pDK1lMm8o2cIqb1LVz8z-24">
+          <mxGeometry y="116" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pDK1lMm8o2cIqb1LVz8z-34" value="House Area" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="pDK1lMm8o2cIqb1LVz8z-24">
+          <mxGeometry y="146" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pDK1lMm8o2cIqb1LVz8z-28" value="Number of Bedrooms" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="pDK1lMm8o2cIqb1LVz8z-24">
+          <mxGeometry y="176" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pDK1lMm8o2cIqb1LVz8z-33" value="House Price" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="pDK1lMm8o2cIqb1LVz8z-24">
+          <mxGeometry y="206" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pDK1lMm8o2cIqb1LVz8z-30" value="Amount Paid" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="pDK1lMm8o2cIqb1LVz8z-24">
+          <mxGeometry y="236" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pDK1lMm8o2cIqb1LVz8z-27" value="Number of Payments" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="pDK1lMm8o2cIqb1LVz8z-24">
+          <mxGeometry y="266" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pDK1lMm8o2cIqb1LVz8z-35" value="End Date" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="pDK1lMm8o2cIqb1LVz8z-24">
+          <mxGeometry y="296" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pDK1lMm8o2cIqb1LVz8z-49" value="Auto Loan" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="280" y="70" width="160" height="326" as="geometry">
+            <mxRectangle x="380" y="170" width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pDK1lMm8o2cIqb1LVz8z-53" value="VIN" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=4" vertex="1" parent="pDK1lMm8o2cIqb1LVz8z-49">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pDK1lMm8o2cIqb1LVz8z-54" value="Loan Amount" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=4" vertex="1" parent="pDK1lMm8o2cIqb1LVz8z-49">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pDK1lMm8o2cIqb1LVz8z-55" value="Interest Rate" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=4" vertex="1" parent="pDK1lMm8o2cIqb1LVz8z-49">
+          <mxGeometry y="86" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pDK1lMm8o2cIqb1LVz8z-57" value="Start Date" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=4" vertex="1" parent="pDK1lMm8o2cIqb1LVz8z-49">
+          <mxGeometry y="116" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pDK1lMm8o2cIqb1LVz8z-50" value="Make" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=0" vertex="1" parent="pDK1lMm8o2cIqb1LVz8z-49">
+          <mxGeometry y="146" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pDK1lMm8o2cIqb1LVz8z-51" value="Model" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=0" vertex="1" parent="pDK1lMm8o2cIqb1LVz8z-49">
+          <mxGeometry y="176" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pDK1lMm8o2cIqb1LVz8z-52" value="Year" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=0" vertex="1" parent="pDK1lMm8o2cIqb1LVz8z-49">
+          <mxGeometry y="206" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pDK1lMm8o2cIqb1LVz8z-56" value="Amount Paid" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="pDK1lMm8o2cIqb1LVz8z-49">
+          <mxGeometry y="236" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pDK1lMm8o2cIqb1LVz8z-58" value="Number of Payments" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="pDK1lMm8o2cIqb1LVz8z-49">
+          <mxGeometry y="266" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pDK1lMm8o2cIqb1LVz8z-59" value="End Date" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="pDK1lMm8o2cIqb1LVz8z-49">
+          <mxGeometry y="296" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pDK1lMm8o2cIqb1LVz8z-61" value="Person Loan" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="500" width="160" height="236" as="geometry">
+            <mxRectangle x="380" y="170" width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pDK1lMm8o2cIqb1LVz8z-62" value="Loan Purpose" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="pDK1lMm8o2cIqb1LVz8z-61">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pDK1lMm8o2cIqb1LVz8z-63" value="Loan Amount" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="pDK1lMm8o2cIqb1LVz8z-61">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pDK1lMm8o2cIqb1LVz8z-64" value="Interest Rate" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="pDK1lMm8o2cIqb1LVz8z-61">
+          <mxGeometry y="86" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pDK1lMm8o2cIqb1LVz8z-65" value="Amount Paid" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="pDK1lMm8o2cIqb1LVz8z-61">
+          <mxGeometry y="116" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pDK1lMm8o2cIqb1LVz8z-66" value="Start Date" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="pDK1lMm8o2cIqb1LVz8z-61">
+          <mxGeometry y="146" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pDK1lMm8o2cIqb1LVz8z-67" value="Number of Payments" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="pDK1lMm8o2cIqb1LVz8z-61">
+          <mxGeometry y="176" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pDK1lMm8o2cIqb1LVz8z-68" value="End Date" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="pDK1lMm8o2cIqb1LVz8z-61">
+          <mxGeometry y="206" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pDK1lMm8o2cIqb1LVz8z-69" value="Student Loan" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="280" y="500" width="160" height="236" as="geometry">
+            <mxRectangle x="380" y="170" width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pDK1lMm8o2cIqb1LVz8z-70" value="Loan Term" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="pDK1lMm8o2cIqb1LVz8z-69">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pDK1lMm8o2cIqb1LVz8z-71" value="Disbursement Date" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="pDK1lMm8o2cIqb1LVz8z-69">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pDK1lMm8o2cIqb1LVz8z-72" value="Repayment Start Date" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="pDK1lMm8o2cIqb1LVz8z-69">
+          <mxGeometry y="86" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pDK1lMm8o2cIqb1LVz8z-73" value="Repayment End Date" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="pDK1lMm8o2cIqb1LVz8z-69">
+          <mxGeometry y="116" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pDK1lMm8o2cIqb1LVz8z-74" value="Monthly Payment" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="pDK1lMm8o2cIqb1LVz8z-69">
+          <mxGeometry y="146" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pDK1lMm8o2cIqb1LVz8z-75" value="Grace Period" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="pDK1lMm8o2cIqb1LVz8z-69">
+          <mxGeometry y="176" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pDK1lMm8o2cIqb1LVz8z-76" value="Loan Type" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="pDK1lMm8o2cIqb1LVz8z-69">
+          <mxGeometry y="206" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pDK1lMm8o2cIqb1LVz8z-77" value="&lt;div align=&quot;left&quot;&gt;What I argue should be the primary keys:&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;House Address =&amp;gt; Could Have more then one mortgage, i.e. renting another place.&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Start Date =&amp;gt; Assuming you can take another mortgage out at a later date.&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Loan Amount and Interest Rate =&amp;gt; Because something needs to identify If you take&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;more then one mortgage in a single day because the original mortgage wasn&#39;t enough &lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;for a project with a known budget. Hopefully the mortgages have different loan amounts&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;and interest rates.&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;What I argue should not be the primary keys:&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;House Area, Number of Bedrooms, and House Price don&#39;t give information on a that is &lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;unique to it while House Address already provides that. This is assuming the house address&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;also takes into account things like apartment number.&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Amount Paid and Number of Payments are numbers that are constantly fluctuating and&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;are not really unique to the mortgage, even when combining these two with other &lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;attributes.&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;What I think should be added:&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Something that would be best to is a mortgage id, of which it is unique on its own and&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;can serve as the sole primary key for the Mortgage. This is in the case of more than one &lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;mortgage being taken out for a house on the same day because the mortgagees need more&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;money for something like a renovation when they are already taking a mortgage that doesn&#39;t&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;cover the cost of a renovation so they have to take a second one out, and the first mortgage&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;was the best deal, so they take another identical one to cover the cost.&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-670" y="35" width="510" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="pDK1lMm8o2cIqb1LVz8z-79" value="&lt;div&gt;Person Loan needs an unique identifier. How unlikely is it that two people take a loan out&amp;nbsp;&lt;/div&gt;&lt;div&gt;for the same same reason on the same date with the same plan (End date, Loan Amount, and Interest Rate).&lt;/div&gt;&lt;div&gt;And the Amount Paid and Number of payments would not be good primary or part of one because they are&lt;/div&gt;&lt;div&gt;constantly changing. &lt;br&gt;&lt;/div&gt;&lt;div&gt;Thus a unique identifier, i.e. a personal loan id is needed.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="510" width="600" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pDK1lMm8o2cIqb1LVz8z-80" value="&lt;div align=&quot;left&quot;&gt;Disbursement Date is not a good primary key because it will depend on rather non-unique stuff like enrollment date.&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Repayment Start Date is not good either because it is also rather generic.&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Repayment End Date is typically the Day of Graduation + selected grace period + (10, 20, or 25 years). &lt;br&gt;Which day of graduation is going to be the same for a lot of students. Typically the grace period is rather generic,&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;ad so is the additional years added on for the repayment end date.&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Loan type is also rather generic.&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Which is why a unique id is needed.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="480" width="640" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="pDK1lMm8o2cIqb1LVz8z-81" value="&lt;div align=&quot;left&quot;&gt;The VIN is unique to every vehicle, therefor the Make, Model and Year&amp;nbsp;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;(anything that helps identify the vehicle, other then the VIN) is not needed as primary keys.&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;For an Auto Loan, I think something like the Loan Amount, Interest Rate, and Start Date, will&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;be sufficient enough for the vehicle because it is rather unlikely you are going to need to take&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;more then one loan on a vehicle at a time that has the exact same interest rate and loan amount.&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Amount Paid, and Number of payments are constantly fluctuating so using them as part of the primary key&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;would not be a good idea. And end date would likely not be needed.&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="445" y="25" width="590" height="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
