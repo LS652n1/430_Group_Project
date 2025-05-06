@@ -17,7 +17,7 @@ public class DBConnection {
     
     public static Connection connect(){
         
-        String url = "jdbc:sqlite:C:\\Users\\rdenn\\OneDrive\\Documents\\NetBeansProjects\\LoanDatabaseProject\\src\\loandatabaseproject\\loanDB.db";
+        String url = "jdbc:sqlite:C:\\Users\\ssrdr\\Documents\\NetBeansProjects\\LoanDatabase\\src\\loandatabaseproject\\loanDB.db";
         Connection connection = null;
         try{
             connection = DriverManager.getConnection(url);
